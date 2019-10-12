@@ -1,0 +1,22 @@
+I started this exercise by following the same directions we used in-class for de novo Assembly 2.  I had used cutadapt on the G11 files on Thursday
+afternoon and I just fed them into the same command line for spades.py (with same k-mer choices) as we did there.
+Similar for making a quast report.  So far, no glitches beyond syntax problems just getting the commandline right.  I called my output G11
+_spades_output.
+
+Here are some results from the graphics:  I used the original html file and not Icarus.
+1. 119 contigs
+2. GC content=57.89%
+3.Largest Contig = 302203.
+4. N50 = 110872
+
+My initial thoughts on the quality of the assembly is that it is good.  Before running the G11 data, I opened the quast report for the T1 data
+we used as a class example, and it looks very similar to me.  Other observations based on what we discussed in class?  If I'm reading this right
+we are representing a total genome of 4,000,000+ base pairs with just 119 total contigs.  That seems to be a reasonable and believeable result.
+The N50 I'm less sure about.  It took 110,872 contigs to get to the N50 point.  On over 4,000,000 base pairs that might be good, though
+a smaller number there would be good.  The L50 of just 11 builds my confidence more!  It sounds like big chunks match well with perhaps left and
+right "ends" that don't as much.  I think we would like to see a longer largest contig, but as a newcomer to this I may be wrong.  
+
+I think it was a successful first run with Quast.  It seems to be a smooth running and forgiving program.  I really expected worse, perhaps
+very glitchy results this first time, and this seems to be high quality to me.
+
+
